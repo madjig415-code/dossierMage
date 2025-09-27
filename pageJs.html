@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>bienvenu</h1>  
+  <p>exercice1</p>
+</body>
+
+   <script>
+//const message:string = "hello world!";
+//console.log(message);
+let float=2.14;
+console.log(float);
+let nombre = 2;
+console.log(nombre);
+let nobreDecimal = 7.15;
+console.log(nobreDecimal); 
+let region = "Dakar";
+console.log(region);
+var tabNombre = [2,3,4];
+console.log(tabNombre);
+let tabFruit = ["orange","banane","pomme","mangue"];
+tabFruit.push("ditakh");
+console.log(tabFruit );
+tabFruit.push("kiwi");
+console.log(tabFruit); 
+let tabVar = [2,"modou",2.7,"Dakar","banane","orange"];
+tabVar.push("riz");
+tabVar.pop();
+tabVar.shift();
+tabVar.unshift(200);
+console.log(tabVar);
+
+//les fonctions
+
+function surfaceCarre(cote) {
+  return cote * cote;
+}
+
+
+let cote = 5;
+let surface = surfaceCarre(cote);
+
+console.log("La surface du carré de côté " + cote + " est : " + surface);
+
+
+   
+function verifierAge(age) {
+  if (age >= 18) {
+    return "vous pouvez voter";
+  } else if (age < 18) {
+    return "vous ne pouvez pas voter";
+ 
+}
+}
+
+
+let age = 16;
+console.log("Âge : " + age );
+
+age = 20;
+console.log("Âge : " + age );
+
+age = 18;
+console.log("Âge : " + age);
+
+//fonction pour verifier le sex
+function verifieSex(sex) {
+  if (sex === "h" || sex === "H") {
+    return "vous êtes un homme";
+  } else if (sex === "f" || sex === "F") {
+    return "vous êtes une femme";
+  } else {
+    return "valeur non reconnue (utilisez H ou F)";
+  }
+}
+let sexe = "f"; 
+console.log(verifieSex(sexe));
+
+
+
+
+   </script> 
+</html>
